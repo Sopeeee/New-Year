@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сounter</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        #garland {
+        position:absolute;
+        top:0;left:0;
+        background-image:url('https://sitespectr.ru/test/girlyanda/christmas-lights.png');
+        height:36px;width:100%;overflow:hidden;z-index:99}
+        .garland_1 {background-position: 0 0}
+        .garland_2 {background-position: 0 -36px}
+        .garland_3 {background-position: 0 -72px}
+        .garland_4 {background-position: 0 -108px}
+        </style>
+        <!--Гирлянда на сайт javascript -->
+        <script type="text/javascript">
+        function garland() {
+        nums = document.getElementById('nums_1').innerHTML
+        if(nums == 1) {document.getElementById('garland').className='garland_1';
+        document.getElementById('nums_1').innerHTML='2'}
+        if(nums == 2) {document.getElementById('garland').className='garland_2';
+        document.getElementById('nums_1').innerHTML='3'}
+        if(nums == 3) {document.getElementById('garland').className='garland_3';
+        document.getElementById('nums_1').innerHTML='4'}
+        if(nums == 4) {document.getElementById('garland').className='garland_4';
+        document.getElementById('nums_1').innerHTML='1'}
+        }
+        setInterval(function(){garland()}, 600)
+        </script>
+
+<link href="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/snow.min.css" rel="stylesheet">
+
+
+</head>
+<body class="page lor">
+
+  <script src="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/Snow.min.js"></script>
+  <script>
+    new Snow ();
+  </script>
+
+    <div id="garland" class="garland_4">
+        <div class="num" id="nums_1">1</div>
+    </div>
+
+  <div class="iow">
+    <img src="https://img1.picmix.com/output/stamp/normal/9/6/7/6/2336769_b9413.gif" width="200px">
+<div class="switchtc">
+  <img class="idw" src="https://cdn.icon-icons.com/icons2/1734/PNG/512/christmastreewithpresents_113195.png" width="200px">
+  <label class="switch">
+    <input onclick="color()" class="dsb" type="checkbox">
+    <span class="slider round"></span>
+  </label>
+</div>   
+    <img src="https://img1.picmix.com/output/stamp/normal/9/6/7/6/2336769_b9413.gif" width="180px">
+  </div>
+
+
+
+<br>
+
+
+<div class="count">
+ 
+
+<div class="imf"><img src="https://sunveter.ru/uploads/posts/2016-12/1481059872_dedmoroz24.gif" width="120px"> </div>
+<h1 class="countdown-title">Counter until New Year</h1>
+
+    <div id="countdown" class="countdown">
+      <img class="dow" src="https://steadlands.com/wp-content/uploads/2019/12/2019-tree.gif" width="150px">
+      <div class="countdown-number">
+        <span class="days countdown-time"></span>
+        <span class="countdown-text">Days</span>
+      </div>
+      <div class="countdown-number">
+        <span class="hours countdown-time"></span>
+        <span class="countdown-text">Hours</span>
+      </div>
+      <div class="countdown-number">
+        <span class="minutes countdown-time"></span>
+        <span class="countdown-text">Minutes</span>
+      </div>
+      <div class="countdown-number">
+        <span class="seconds countdown-time"></span>
+        <span class="countdown-text">Seconds</span>
+      </div>
+      <img class="dow" src="https://steadlands.com/wp-content/uploads/2019/12/2019-tree.gif" width="150px">
+    </div>
+
+</div>
+ <script src="name.js"></script>
+</body>
+</html>
